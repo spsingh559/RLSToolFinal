@@ -1,0 +1,22 @@
+.BarChartCSS .bar {
+  fill: steelBlue;
+}
+
+.BarChartCSS .bar:hover {
+  fill: brown;
+}
+
+.BarChartCSS .axis {
+  font: 10px sans-serif;
+}
+
+.BarChartCSS .axis path,
+.BarChartCSS .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.BarChartCSS .x.axis path {
+  display: none;
+}
